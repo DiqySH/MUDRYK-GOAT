@@ -1,0 +1,109 @@
+body {
+    font-family: "Sora", serif;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 140px 0px 140px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    background-color: #EBFEFF;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+a {
+    color: #5986EF;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p.hi {
+    color: #457B9D;
+    font-size: 24px;
+}
+
+h1.nama {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+p.penjelasan {
+    font-size: 20px;
+}
+
+button.btn {
+    padding: 20px 40px 20px 40px;
+    background-color: #457B9D;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 20px;
+}
+
+img.goat {
+    width: 582px;
+    background-color: #457B9D;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px 40px 40px;
+    gap: 20px;
+}
+
+.perkenalan {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.hero {
+    background-color: #EBFEFF;
+}
+
+button.btn:hover {
+    cursor: pointer;
+    background-color: #5986EF;
+    
+}
+
+@media (max-width: 1000px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top: 325px;
+        gap: 40px;
+    }
+
+    img.goat {
+        width: 500px;
+    }
+}
+
